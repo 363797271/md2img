@@ -1,0 +1,44 @@
+{
+  "name": "md2img",
+  "version": "0.1.0",
+  "description": "markdown to image",
+  "keywords": [
+    "md2img",
+    "zyd"
+  ],
+  "homepage": "https://github.com/363797271/md2img#readme",
+  "bugs": {
+    "url": "https://github.com/363797271/md2img/issues"
+  },
+  "license": "MIT",
+  "author": "zyd",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/md2img.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/363797271/md2img.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "inquirer": "^7.2.0",
+    "marked": "^1.1.0",
+    "puppeteer": "^4.0.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true
+}
