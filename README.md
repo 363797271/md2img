@@ -1,4 +1,4 @@
-# md2img
+# md2image
 
 [![NPM Downloads][downloads-image]][downloads-url]
 [![NPM Version][version-image]][version-url]
@@ -12,10 +12,10 @@
 ## Installation
 
 ```shell
-$ npm install md2img
+$ npm install md2image
 
 # or yarn
-$ yarn add md2img
+$ yarn add md2image
 ```
 
 ## Usage
@@ -23,9 +23,8 @@ $ yarn add md2img
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const md2Img = require('md2img')
-const result = md2Img('README.md', 'README.png')
-// result => 'zce@zce.me'
+// const md2Img = require('md2img')
+// const result = md2Img('README.md', 'README.png')
 ```
 
 ## API
