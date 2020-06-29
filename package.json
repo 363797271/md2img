@@ -1,9 +1,10 @@
 {
-  "name": "md2img",
+  "name": "md2image",
   "version": "0.1.0",
   "description": "markdown to image",
   "keywords": [
     "md2img",
+    "md2image",
     "zyd"
   ],
   "homepage": "https://github.com/363797271/md2img#readme",
